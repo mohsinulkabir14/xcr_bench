@@ -36,7 +36,7 @@ Existing evaluations mostly rely on machine translation or intrinsic knowledge p
 
 ---
 
-## 📌 Tasks Supported
+## 📌 Designed Tasks
 
 XCR-Bench enables three core evaluation tasks.
 
@@ -67,5 +67,70 @@ Output:
 
 ## 🗂 Dataset Structure
 
-A typical release of XCR-Bench is organized as follows:
+XCR-Bench is organized as follows:
 
+xcr_bench/
+│── data/
+│ ├── xcr_bench_base_corpus
+│ ├── xcr_bench_chinese_adaptation.csv
+│ ├── xcr_bench_arabic_adaptation.csv
+│ ├── xcr_bench_bengali_bangladesh_adaptation.csv
+│ ├── xcr_bench_bengali_west_bengal_adaptation.csv
+│
+│── code/
+│ ├── Identification
+| |  ├── identification_prompt.txt
+| |  ├── Evaluation
+│ ├── Prediction
+| |  ├── prediction_prompt.txt
+| |  ├── Evaluation
+│ ├── Adaptation
+| |  ├── adaptation_prompt.txt
+| |  ├── Evaluation
+|
+│── README.md
+│── LICENSE
+
+
+Each data instance contains:
+
+- Original sentence  
+- Cultural Context
+- CSI category
+- CSI Hall Mapping
+- Hall cultural level (Visible / Semi-visible / Invisible)  
+- Adapted equivalents for each culture  
+
+---
+
+## 📊 Evaluation Metrics
+
+XCR-Bench includes both hard and soft evaluation metrics.
+
+| Task | Hard Metric | Soft Metric |
+|-----|-------------|-------------|
+| CSI Identification | Exact span match | Levenshtein-based similarity |
+| CSI Prediction | Exact match | Sentence-BERT semantic similarity |
+| CSI Adaptation | – | CSI-BERT and SENT-BERT scores |
+
+Evaluation scripts implementing these metrics are provided in the `Evaluation/` directory.
+
+## 📜 License
+
+This dataset is released under the **Creative Commons Attribution 4.0 (CC-BY-4.0)** license.  
+Please ensure appropriate attribution when using the data.
+
+---
+
+## 📎 Citation
+
+If you use XCR-Bench in your work, please cite:
+
+
+
+## 🤝 Contact
+
+For questions, suggestions, or collaborations:
+
+- **Mohsinul Kabir** – mdmohsinul.kabir@manchester.ac.uk  
+- **Sophia Ananiadou** – sophia.ananiadou@manchester.ac.uk  
