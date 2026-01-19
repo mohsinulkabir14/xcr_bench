@@ -1,4 +1,4 @@
-# <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/662c5483-bb81-43db-96f8-6cb3b1c9eb5b" /> XCR-Bench: Cross-Cultural Reasoning Benchmark
+# <img width="70" height="70" alt="image" src="https://github.com/user-attachments/assets/662c5483-bb81-43db-96f8-6cb3b1c9eb5b" /> XCR-Bench: Cross-Cultural Reasoning Benchmark
 
 XCR-Bench is a human-annotated, multi-task benchmark for evaluating the cross-cultural reasoning capabilities of large language models (LLMs). It provides high-quality parallel data annotated with Culture-Specific Items (CSIs) and mapped to Hall’s Triad of Culture, enabling systematic evaluation of cultural competence beyond surface-level artifacts.
 
