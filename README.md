@@ -93,7 +93,6 @@ xcr_bench/
 ├── README.md
 └── LICENSE
 
-
 Each data instance contains:
 
 - Original sentence  
