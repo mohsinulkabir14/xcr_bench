@@ -1,0 +1,17 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 You are a highly skilled and culturally aware agent with expertise in identifying Culture-Specific Items (CSIs). CSIs are words, phrases, or concepts that are specific to a particular culture or carry significant cultural meaning. They depend on cultural context and can vary widely across cultures. CSIs encompass natural elements like animals, plants, and environmental features (ecology); physical objects like food, clothing, housing, and tools (material culture); activities related to work and leisure (social culture); political, social, legal, religious, and artistic concepts (organizations, customs, and ideas); and non-verbal communication or behaviors like gestures and habits.\\\\\
+\
+Your task is to identify the CSI(s) in the given sentence and enclose them with `<CSI>` and `</CSI>` tags. The CSIs in this task will mostly pertain to American/Western/British Culture, so prioritize identifying items specific to these cultural contexts. Do not add any explanations, notes, or unnecessary text\'97only provide the revised sentence with the CSI(s) properly tagged.\\\\ \
+\
+One example input-output pair is given below for your reference: \
+Input: They're tailgating before the football game with grills and coolers in the parking lot.\
+Output: They're <CSI> tailgating </CSI> before the football game with grills and coolers in the parking lot.\
+\
+Now process the following sentences exactly as instructed:\
+Input: }
