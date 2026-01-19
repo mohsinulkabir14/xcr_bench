@@ -70,26 +70,28 @@ Output:
 XCR-Bench is organized as follows:
 
 xcr_bench/
-│── data/
-│ ├── xcr_bench_base_corpus
+├── data/
+│ ├── xcr_bench_base_corpus.csv
 │ ├── xcr_bench_chinese_adaptation.csv
 │ ├── xcr_bench_arabic_adaptation.csv
 │ ├── xcr_bench_bengali_bangladesh_adaptation.csv
-│ ├── xcr_bench_bengali_west_bengal_adaptation.csv
+│ └── xcr_bench_bengali_west_bengal_adaptation.csv
 │
-│── code/
-│ ├── Identification
-| |  ├── identification_prompt.txt
-| |  ├── Evaluation
-│ ├── Prediction
-| |  ├── prediction_prompt.txt
-| |  ├── Evaluation
-│ ├── Adaptation
-| |  ├── adaptation_prompt.txt
-| |  ├── Evaluation
-|
-│── README.md
-│── LICENSE
+├── code/
+│ ├── Identification/
+│ │ ├── identification_prompt.txt
+│ │ └── Evaluation/
+│ │
+│ ├── Prediction/
+│ │ ├── prediction_prompt.txt
+│ │ └── Evaluation/
+│ │
+│ └── Adaptation/
+│ ├── adaptation_prompt.txt
+│ └── Evaluation/
+│
+├── README.md
+└── LICENSE
 
 
 Each data instance contains:
