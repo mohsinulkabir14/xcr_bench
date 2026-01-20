@@ -119,7 +119,7 @@ Evaluation scripts implementing these metrics are provided in the `Evaluation/` 
 
 ## 📜 License
 
-This dataset is released under the **Creative Commons Attribution 4.0 (CC-BY-4.0)** license.  
+This dataset is released under the **CC BY-NC-ND: Creative Commons Attribution-NonCommercial-NoDerivatives** license.  
 Please ensure appropriate attribution when using the data.
 
 ---
