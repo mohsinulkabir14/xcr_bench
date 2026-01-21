@@ -4,7 +4,7 @@ XCR-Bench is a human-annotated, multi-task benchmark for evaluating the cross-cu
 
 This repository contains the dataset and evaluation scripts introduced in the paper:
 
-**XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs**  
+**[XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs](https://arxiv.org/abs/2601.14063)**
 
 
 ---
