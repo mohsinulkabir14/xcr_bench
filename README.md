@@ -126,7 +126,7 @@ Please ensure appropriate attribution when using the data.
 
 ## 🤗 Hugging Face Dataset
 
-The XCR-Bench dataset is publicly available on Hugging Face:
+The XCR-Bench corpus is publicly available on Hugging Face:
 
 https://huggingface.co/datasets/mohsinulkabir14/xcr_bench
 
