@@ -133,6 +133,14 @@ https://huggingface.co/datasets/mohsinulkabir14/xcr_bench
 ## 📎 Citation
 
 If you use XCR-Bench in your work, please cite:
+```
+@article{kabir2026xcr,
+  title={XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs},
+  author={Kabir, Mohsinul and Ahmed, Tasnim and Rahman, Md Mezbaur and Ji, Shaoxiong and Alhuzali, Hassan and Ananiadou, Sophia},
+  journal={arXiv preprint arXiv:2601.14063},
+  year={2026}
+}
+```
 
 
 
