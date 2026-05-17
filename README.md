@@ -2,10 +2,10 @@
 
 XCR-Bench is a human-annotated, multi-task benchmark for evaluating the cross-cultural reasoning capabilities of large language models (LLMs). It provides high-quality parallel data annotated with Culture-Specific Items (CSIs) and mapped to Hall’s Triad of Culture, enabling systematic evaluation of cultural competence beyond surface-level artifacts.
 
-This repository contains the dataset and evaluation scripts introduced in the paper:
+<!-- This repository contains the dataset and evaluation scripts introduced in the paper:
 
 **[XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs](https://arxiv.org/abs/2601.14063)**
-
+-->
 
 ---
 
@@ -123,7 +123,7 @@ This dataset is released under the **CC BY-NC-ND: Creative Commons Attribution-N
 Please ensure appropriate attribution when using the data.
 
 ---
-
+<!--
 ## 🤗 Hugging Face Dataset
 
 The XCR-Bench corpus is publicly available on Hugging Face:
@@ -150,3 +150,5 @@ For questions, suggestions, or collaborations:
 
 - **Mohsinul Kabir** – mdmohsinul.kabir@manchester.ac.uk  
 - **Sophia Ananiadou** – sophia.ananiadou@manchester.ac.uk  
+
+-->
