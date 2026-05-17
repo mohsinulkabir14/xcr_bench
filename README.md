@@ -21,7 +21,7 @@ Existing evaluations mostly rely on machine translation or intrinsic knowledge p
 
 ### What XCR-Bench Provides
 
-- 4,900+ parallel sentences  
+- 4,100+ parallel sentences  
 - 1,098 unique Culture-Specific Items (CSIs)  
 - Annotations across:  
   - CSI categories (based on Newmark’s framework)  
