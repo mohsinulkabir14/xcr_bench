@@ -2,10 +2,6 @@
 
 XCR-Bench is a human-annotated, multi-task benchmark for evaluating the cross-cultural reasoning capabilities of large language models (LLMs). It provides high-quality parallel data annotated with Culture-Specific Items (CSIs) and mapped to Hall’s Triad of Culture, enabling systematic evaluation of cultural competence beyond surface-level artifacts.
 
-<!-- This repository contains the dataset and evaluation scripts introduced in the paper:
-
-**[XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs](https://arxiv.org/abs/2601.14063)**
--->
 
 ---
 
@@ -119,36 +115,7 @@ Evaluation scripts implementing these metrics are provided in the `Evaluation/` 
 
 ## 📜 License
 
-This dataset is released under the **CC BY-NC-ND: Creative Commons Attribution-NonCommercial-NoDerivatives** license.  
+This dataset is released under the **CC BY 4.0** license.  
 Please ensure appropriate attribution when using the data.
 
 ---
-<!--
-## 🤗 Hugging Face Dataset
-
-The XCR-Bench corpus is publicly available on Hugging Face:
-
-https://huggingface.co/datasets/mohsinulkabir14/xcr_bench
-
-## 📎 Citation
-
-If you use XCR-Bench in your work, please cite:
-```
-@article{kabir2026xcr,
-  title={XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs},
-  author={Kabir, Mohsinul and Ahmed, Tasnim and Rahman, Md Mezbaur and Ji, Shaoxiong and Alhuzali, Hassan and Ananiadou, Sophia},
-  journal={arXiv preprint arXiv:2601.14063},
-  year={2026}
-}
-```
-
-
-
-## 🤝 Contact
-
-For questions, suggestions, or collaborations:
-
-- **Mohsinul Kabir** – mdmohsinul.kabir@manchester.ac.uk  
-- **Sophia Ananiadou** – sophia.ananiadou@manchester.ac.uk  
-
--->
